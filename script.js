@@ -5,8 +5,8 @@ window.addEventListener('DOMContentLoaded', () => {
   const bottomTextSizeInput = document.getElementById('bottom-text-size-input');
   const imageInput = document.getElementById('image-input');
   const generateBtn = document.getElementById('generate-btn');
-  upperTextInput.value = 'upper';
-  bottomTextInput.value = 'Bottom';
+  upperTextInput.value = 'Header';
+  bottomTextInput.value = 'Footer';
   generateBtn.addEventListener('click', () => {
       const reader = new FileReader();
       reader.readAsDataURL(imageInput.files[0])
