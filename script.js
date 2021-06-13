@@ -32,6 +32,8 @@ function generateMeme(img, upperText, bottomText, upperTextSize, bottomTextSize)
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     //drawing the image by context, x, and y coordinates
     ctx.drawImage(img, 0, 0); 
+    ctx.fillStyle = 'white';
+    ctx.textAlign = 'center';
 
     let fontSize = canvas.width * upperTextSize; 
     ctx.font = `${fontSize}px Impact`;

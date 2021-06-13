@@ -7,14 +7,12 @@ body {
     
  background-color: rgb(167, 168, 62);
  margin: 10px;
-   
-
-
 }
   
-  #meme-canvas {
+#meme-canvas {
     width: 450px;
 }
+
 #center{
     max-width: 500px;
     margin: auto;
