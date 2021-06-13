@@ -4,31 +4,48 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-        <title>Meme Generator</title>
+        <title>Meme DR</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
         <link rel="stylesheet" href="style.css">
+     
     </head>
+
+
     <body>
-        <div class = center>
-            <h1>What's you Meme &#128526 </h1>
-            <div>
-                <textarea id="upper"></textarea>
-                Text size: <input type="range" id="upper-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
-            </div>
-            <div>
-                <textarea id="bottom-text"></textarea>
-                Text size: <input type="range" id="bottom-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
-            </div>
-            <div>
+        <div class="container" id = "center">
+            <div class="notification is-primary">
+                <h1 class="title is-1">You've Got Meme</h1>
+
+                <div class="control">
+                    
+                    <input class="input is-focused" type="text" id="upper" placeholder="Header">
+                    Text: <input type="range" id="upper-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+                </div>
+              
+
+                <div class="control">
+                    
+                    <input class="input is-focused" type="text" id="bottom-text" placeholder="Footer">
+                    Text: <input type="range" id="bottom-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+                </div>
+
+                
                 <input type="file" id="image-input" accept="image/*">
+
+                
+                <div class="column is-one-quarter"></div>
+                
+                <div>
+                    
+                    <button class="button is-danger" id="generate-btn" >Submit &#128064</button>
+                </div>
+                
+                <canvas id="meme-canvas" title="Right click to save this meme"></canvas>
+
+                
             </div>
-            <div>
-                <button id="generate-btn">Submit &#128064</button>
-            </div>
-           
-            
         </div>
-        <canvas id="meme-canvas" title="Right click to save this meme"></canvas>
+        
         <script src="script.js"></script>
-       
     </body>
 </html>
