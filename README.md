@@ -12,6 +12,7 @@
 * [Technologies used](#api)
 * [What can the app do?](#details)
 * [Deployment](#installations)
+* [Future Additions](#installations)
 * [Credits](#credits)
  
  ## Introduction 
@@ -75,6 +76,10 @@ One of those dasys when you feel funny and amused by looking at some memes on in
    *  [The URL of the app](https://dipti2021.github.io/YouHaveGotMeme/)
 
 
+ ## Future Additions
+  1. I would love to add a URL area as well where instead of uploading an image, the address of an image can be directly put in.
+  2. I would also like to create a meme for gifs.
+ 
 
   ## Credits
     A special thanks to Aiden Threadgoode for helping me out with the header display
