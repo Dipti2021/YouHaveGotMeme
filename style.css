@@ -1,15 +1,23 @@
 h1 {
     font-family: cursive;
     font-size: 30px;
+ 
+    
 }
   
 body {
     
- background-color: rgb(167, 168, 62);
+ background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
  margin: 10px;
+
+}
+.notification{
+    border: 2px solid red;
+    border-radius: 12px;
+    background-image: url("https://images.unsplash.com/photo-1575578285291-905e55d5a789?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
 }
   
-#meme-canvas {
+#memes {
     width: 450px;
 }
 
@@ -17,5 +25,9 @@ body {
     max-width: 500px;
     margin: auto;
     padding: 10px;
+}
+#upper, #bottom-text{
+    border-radius: 15px;
+    border: 2px solid 
 }
 
