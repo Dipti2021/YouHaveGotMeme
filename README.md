@@ -18,10 +18,10 @@
 One of those dasys when you feel funny and amused by looking at some memes on instagram, and then realising why not build a meme creator ! Icant believe that __Instagram__ inspired me to create this app.
 
  ## User Story
-  a. As a User, I want to enter a set of words in the header and the footer section.
-  b. As a User, I want to select an image by clicking on the Select file button, from my system on which I want to generate a meme.
-  c. As a User, I am able to click the button to generate the final meme.
-  D. As a User, I want to savethe generated meme by right clicking and saving the meme.
+  1. As a User, I want to enter a set of words in the header and the footer section.
+  2. As a User, I want to select an image by clicking on the Select file button, from my system on which I want to generate a meme.
+  3. As a User, I am able to click the button to generate the final meme.
+  4. As a User, I want to savethe generated meme by right clicking and saving the meme.
 
 ## Design Process
    * A very easy and responsive web app which lets you generate your own memes. 
@@ -32,16 +32,16 @@ One of those dasys when you feel funny and amused by looking at some memes on in
 
    __For iPhone X__
     
-  ![image3](public/images/mvc.png)
+  ![image3](assets/iphone.png)
   
-  __For iPhone X__
+  __For Pixel 2XL__
   
- ![image3](public/images/db.png)
+ ![image3](assets/pixel.png)
  
  
-  __For iPhone X__
+  __Generated MEME__
   
- ![image3](public/images/db.png)
+ ![image3](assets/ques.png)
  
 
  ##  Technologies used
