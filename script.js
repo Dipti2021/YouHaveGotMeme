@@ -45,7 +45,7 @@ function create(img, upperText, lowerText, upperTextSize, lowerTextSize) {//crea
   twoD_canvas.textBaseline = 'upper';//header values
   upperText.split('\n').forEach((t, i) => {
     x = canvas.width / 2;
-    y = canvas.width / 9;
+    y = canvas.width / 14;
     twoD_canvas.fillText(t, x, y, canvas.height - i * fontSize); // text, x, y coordinates
     twoD_canvas.strokeText(t, x,y,  canvas.height - i * fontSize);
   });
