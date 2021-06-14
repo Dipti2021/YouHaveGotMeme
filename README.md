@@ -56,6 +56,7 @@ One of those dasys when you feel funny and amused by looking at some memes on in
  
  ## How does the app work?
  A gif has been attached which showswhat you end result will look like. But I have put in points the creation and functioning if the app.
+ 
   1. In the __index.html__ i created the base for writing the text for the header, footer, button to choose an image and then button for generating the created meme.
   2. Most of the styling was handled by __Bulma__ and th remaining was taken care of in the __style.css__ file.
   3. The __script.js__ is the brain behind the code.
@@ -63,6 +64,9 @@ One of those dasys when you feel funny and amused by looking at some memes on in
   5. Functions for the working/ generating of header and footer were created.
   6.  Function for the working/ generating of the meme generator button was created.
   7. The user will enter a set of words in the header and the footer section
+  8. Video of creating the meme:
+  
+     ![image3](assets/meme.gif)
 
  
  ## Deployment
