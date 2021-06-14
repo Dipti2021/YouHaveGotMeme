@@ -1,22 +1,28 @@
 # You've Got Meme!
 ![License: Dipti](https://img.shields.io/badge/Coder-Dipti'sCode-pink.svg)
-![License: GPL v3](https://img.shields.io/badge/License-GNU-white.svg)
-![Project:no](https://img.shields.io/badge/db-Sequelize-red.svg)
+![License: GPL v3](https://img.shields.io/badge/License-GNU-red.svg)
 ![Project:no](https://img.shields.io/badge/Mood-Funny-green.svg)
 ![Project:no](https://img.shields.io/badge/Styling-Bulma-purple.svg)
 
 
 ## Table of Contents
 * [Introduction](#introduction)
+* [User Story](#user)
 * [Design Process](#design)
 * [Technologies used](#api)
-* [App Presentation](#details)
 * [What can the app do?](#details)
 * [Deployment](#installations)
 * [Credits](#credits)
  
  ## Introduction 
 One of those dasys when you feel funny and amused by looking at some memes on instagram, and then realising why not build a meme creator ! Icant believe that __Instagram__ inspired me to create this app.
+
+ ## User Story
+  a. As a User, I want to enter a set of words in the header and the footer section.
+  b. As a User, I want to select an image by clicking on the Select file button, from my system on which I want to generate a meme.
+  c. As a User, I am able to click the button to generate the final meme.
+  D. As a User, I want to savethe generated meme by right clicking and saving the meme.
+
 ## Design Process
    * A very easy and responsive web app which lets you generate your own memes. 
    * Built using the basic frameworks of web development.
@@ -56,6 +62,7 @@ One of those dasys when you feel funny and amused by looking at some memes on in
   4. I created a DOM Content where all the data was created and relayed to the html id's.
   5. Functions for the working/ generating of header and footer were created.
   6.  Function for the working/ generating of the meme generator button was created.
+  7. The user will enter a set of words in the header and the footer section
 
  
  ## Deployment
